@@ -3,10 +3,7 @@ const nextConfig = {
   productionBrowserSourceMaps: true,
   output: 'standalone',
   distDir: process.env.DIST_DIR || '.next',
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  webpack(config) {
+  webpack: (config, { webpack }) => {
     config.module.rules.push({
       test: /\.(jsx|tsx)$/,
       exclude: [/node_modules/],
@@ -16,5 +13,9 @@ const nextConfig = {
     });
     return config;
   },
+  // Explicitly disable Turbopack since we have a custom webpack config
+  experimental: {
+    webpackBuildWorker: false,
+  }
 };
 export default nextConfig;

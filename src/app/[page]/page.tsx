@@ -4,12 +4,13 @@ import Button from '../../components/ui/button';
 
 const underConstructionPages = new Set(['packages', 'tours', 'about', 'contact']);
 
-export default function UnderConstructionRoutePage({
+export default async function UnderConstructionRoutePage({
   params,
 }: {
-  params: { page: string };
+  params: Promise<{ page: string }>;
 }) {
-  const page = (params.page ?? '').toLowerCase();
+  const resolvedParams = await params;
+  const page = (resolvedParams.page ?? '').toLowerCase();
 
   if (!underConstructionPages.has(page)) {
     notFound();
