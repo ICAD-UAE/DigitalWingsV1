@@ -1,0 +1,24 @@
+@import './tailwind.css';
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;700&family=Abril+Fatface&family=Alegreya&family=Allison&family=Grape+Nuts&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  opacity: 0;
+  animation: dwFadeIn 600ms ease-out forwards;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+@keyframes dwFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

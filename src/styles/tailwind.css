@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --primary-background: #007a82;
+    --primary-light: #0098a2;
+    --primary-foreground: #ffffff;
+    
+    /* Text Colors */
+    --text-primary: #000000;
+    --text-secondary: #282828;
+    --text-muted: #4b4b4b;
+    --text-white: #ffffff;
+    
+    /* Background Colors */
+    --bg-main: #ffffff;
+    --bg-secondary: #f2f2f2;
+    --bg-overlay: #ffffff7f;
+    --bg-overlay-light: #ffffff99;
+    --bg-overlay-medium: #ffffffb2;
+    --bg-overlay-heavy: #ffffffcc;
+    --bg-overlay-strong: #ffffffe5;
+    --bg-muted: #c6c6c6;
+    
+    /* Border Colors */
+    --border-primary: #c2c2c2;
+    --border-white: #ffffff;
+    
+    /* Typography Variables */
+    --font-size-xs: 6px;
+    --font-size-sm: 10px;
+    --font-size-base: 12px;
+    --font-size-md: 14px;
+    --font-size-lg: 16px;
+    --font-size-xl: 20px;
+    --font-size-2xl: 24px;
+    --font-size-3xl: 32px;
+    --font-size-4xl: 40px;
+    --font-size-5xl: 48px;
+    --font-size-hero: 128px;
+    
+    /* Font Weight Variables */
+    --font-weight-thin: 100;
+    --font-weight-extralight: 200;
+    --font-weight-light: 300;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    
+    /* Line Height Variables */
+    --line-height-xs: 8px;
+    --line-height-sm: 11px;
+    --line-height-base: 12px;
+    --line-height-md: 15px;
+    --line-height-lg: 17px;
+    --line-height-xl: 18px;
+    --line-height-2xl: 19px;
+    --line-height-3xl: 22px;
+    --line-height-4xl: 23px;
+    --line-height-5xl: 24px;
+    --line-height-6xl: 27px;
+    --line-height-7xl: 33px;
+    --line-height-8xl: 40px;
+    --line-height-9xl: 49px;
+    --line-height-10xl: 65px;
+    --line-height-hero: 162px;
+    
+    /* Spacing Variables */
+    --spacing-xs: 4px;
+    --spacing-sm: 6px;
+    --spacing-md: 8px;
+    --spacing-lg: 10px;
+    --spacing-xl: 12px;
+    --spacing-2xl: 14px;
+    --spacing-3xl: 16px;
+    --spacing-4xl: 18px;
+    --spacing-5xl: 20px;
+    --spacing-6xl: 22px;
+    --spacing-7xl: 24px;
+    --spacing-8xl: 26px;
+    --spacing-9xl: 28px;
+    --spacing-10xl: 30px;
+    --spacing-11xl: 32px;
+    --spacing-12xl: 34px;
+    --spacing-13xl: 36px;
+    --spacing-14xl: 38px;
+    --spacing-15xl: 40px;
+    --spacing-16xl: 42px;
+    --spacing-17xl: 44px;
+    --spacing-18xl: 46px;
+    --spacing-19xl: 60px;
+    --spacing-20xl: 68px;
+    --spacing-21xl: 76px;
+    --spacing-22xl: 78px;
+    --spacing-23xl: 80px;
+    --spacing-24xl: 90px;
+    --spacing-25xl: 92px;
+    --spacing-26xl: 94px;
+    --spacing-27xl: 96px;
+    --spacing-28xl: 100px;
+    --spacing-29xl: 114px;
+    --spacing-30xl: 122px;
+    --spacing-31xl: 124px;
+    --spacing-32xl: 126px;
+    --spacing-33xl: 162px;
+    --spacing-34xl: 226px;
+    --spacing-35xl: 264px;
+    --spacing-36xl: 284px;
+    --spacing-37xl: 346px;
+    
+    /* Border Width Variables */
+    --border-width-thin: 1px;
+    
+    /* Component-specific Colors */
+    --header-text: #ffffff;
+    --header-menu-gap: 34px;
+    
+    /* Button Colors */
+    --button-bg: #0098a2;
+    --button-text: #ffffff;
+    --button-border: #ffffff;
+    
+    /* Star Colors */
+    --star-bg: #007a82;
+    
+    /* Line Colors */
+    --line-bg-primary: #c6c6c6;
+    --line-bg-secondary: #f2f2f2;
+    --line-bg-white: #ffffff;
+    
+    /* Input Colors */
+    --input-bg: #ffffff99;
+  }
+}
