@@ -67,9 +67,12 @@ const Header = () => {
                 alt="Email" 
                 className="w-[18px] h-[18px]"
               />
-              <span className="text-sm sm:text-base font-light leading-md text-header-text ml-1.5">
+              <a 
+                href="mailto:contact@digitalwings.com"
+                className="text-sm sm:text-base font-light leading-md text-header-text ml-1.5 hover:underline"
+              >
                 contact@digitalwings.com
-              </span>
+              </a>
             </div>
           </div>
         </div>

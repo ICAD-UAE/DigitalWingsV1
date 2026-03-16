@@ -26,7 +26,7 @@ export default function UnderConstructionRoutePage({
       <div className="w-full max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[18px] pt-12 sm:pt-16">
         <div className="max-w-[900px] mx-auto">
           <div className="bg-background-overlayHeavy border border-border-white rounded-lg shadow-[10px_10px_20px_#0000003f] p-8 sm:p-12">
-            <p className="text-[12px] sm:text-[14px] font-alegreya font-bold leading-[15px] text-text-muted mb-3">
+            <p className="text-[14px] sm:text-[14px] font-alegreya font-normal leading-[15px] text-text-muted mb-3">
               {pageLabel}
             </p>
             <h1 className="text-[28px] sm:text-[40px] md:text-[48px] font-abril font-normal leading-[36px] sm:leading-[49px] text-text-secondary mb-4">
@@ -39,7 +39,7 @@ export default function UnderConstructionRoutePage({
               <a href="#">
                 <Button className="px-8 py-3">Back to Home</Button>
               </a>
-              <a href="#">
+              <a href="mailto:contact@digitalwings.com">
                 <Button variant="outline" className="px-8 py-3">
                   Contact Us
                 </Button>
