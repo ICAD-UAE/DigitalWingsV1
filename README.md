@@ -15,11 +15,19 @@ DigitalWings is a Next.js 14 application built with TypeScript and Tailwind CSS.
 - `/home` shows the main site content
 - Navigation links use `href="#"` and do not navigate
 
-## Prerequisites
+## Running in GitHub Codespaces
 
-- Node.js and npm
+1. Create a new Codespace for this repository
+2. The dev container will automatically install dependencies and prepare the environment
+3. Once the container is ready, run the development server:
 
-## Installation
+```bash
+npm run dev
+```
+
+4. When the server starts, you'll see a notification about port 4028 being available. Click "Open in Browser" or visit http://localhost:4028
+
+## Local Installation
 
 ```bash
 npm install
@@ -32,7 +40,7 @@ Open http://localhost:4028
 
 ```bash
 npm run build
-npm run serve -- -p 4028
+npm run start
 ```
 
 Open http://localhost:4028
@@ -41,7 +49,7 @@ Open http://localhost:4028
 
 - `npm run dev` - start dev server (port 4028)
 - `npm run build` - build for production
-- `npm run serve` - start production server
+- `npm run start` - start production server
 - `npm run type-check` - run TypeScript type checking
 - `npm run format` - format `src/` with Prettier
 
