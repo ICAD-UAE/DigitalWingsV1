@@ -89,7 +89,7 @@ const ExperienceSection = () => {
 
             {/* Copyright */}
             <p className="text-[10px] sm:text-[12px] font-work font-extralight leading-md text-text-primary text-center mt-8 sm:mt-12">
-              Copyright 2023 | DigitalWings.com | All Rights Reserved.
+              Copyright 2026 | DigitalWings.com | All Rights Reserved.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
- import Link from'next/link';
- import Button from'../ui/button';
+import Link from 'next/link';
+import Button from '../ui/button';
 
 interface MenuItem {
   label: string;
@@ -14,10 +14,10 @@ const menuItems: MenuItem[] = [
   { label: 'Tours', href: '#' },
   { label: 'About Us', href: '#' },
   { label: 'Contact', href: '#' },
-]
+];
 
 const Header = () => {
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <header className="w-full bg-primary-background">
@@ -27,23 +27,23 @@ const Header = () => {
           {/* Social Links */}
           <div className="flex items-center justify-center gap-3 sm:gap-4">
             <Link href="#" className="block" aria-label="Instagram">
-              <img 
-                src="/images/img_mdi_instagram.svg" 
-                alt="Instagram" 
+              <img
+                src="/images/img_mdi_instagram.svg"
+                alt="Instagram"
                 className="w-[24px] h-[24px] transition-opacity hover:opacity-80"
               />
             </Link>
             <Link href="#" className="block ml-3 sm:ml-4" aria-label="Twitter">
-              <img 
-                src="/images/img_circum_twitter.svg" 
-                alt="Twitter" 
+              <img
+                src="/images/img_circum_twitter.svg"
+                alt="Twitter"
                 className="w-[24px] h-[24px] transition-opacity hover:opacity-80"
               />
             </Link>
             <Link href="#" className="block ml-2" aria-label="Facebook">
-              <img 
-                src="/images/img_iconoir_facebook.svg" 
-                alt="Facebook" 
+              <img
+                src="/images/img_iconoir_facebook.svg"
+                alt="Facebook"
                 className="w-[24px] h-[24px] transition-opacity hover:opacity-80"
               />
             </Link>
@@ -52,9 +52,9 @@ const Header = () => {
           {/* Contact Info */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-6">
             <div className="flex items-center">
-              <img 
-                src="/images/img_material_symbols_call.svg" 
-                alt="Phone" 
+              <img
+                src="/images/img_material_symbols_call.svg"
+                alt="Phone"
                 className="w-[18px] h-[18px]"
               />
               <span className="text-sm sm:text-base font-light leading-md text-header-text ml-1.5">
@@ -62,12 +62,12 @@ const Header = () => {
               </span>
             </div>
             <div className="flex items-center">
-              <img 
-                src="/images/img_ic_outline_email.svg" 
-                alt="Email" 
+              <img
+                src="/images/img_ic_outline_email.svg"
+                alt="Email"
                 className="w-[18px] h-[18px]"
               />
-              <a 
+              <a
                 href="mailto:contact@digitalwings.com"
                 className="text-sm sm:text-base font-light leading-md text-header-text ml-1.5 hover:underline"
               >
@@ -83,27 +83,27 @@ const Header = () => {
         <nav className="flex items-center justify-between px-4 sm:px-6 lg:px-[18px] py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-xl font-bold text-header-text">DigitalWings</h1>
+            <img src="/images/logo.png" alt="DigitalWings" className="h-8 w-auto" />
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
-            className="lg:hidden p-2" 
+          <button
+            className="lg:hidden p-2"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
             aria-expanded={menuOpen}
           >
-            <svg 
-              className="w-6 h-6 text-header-text" 
-              fill="none" 
-              stroke="currentColor" 
+            <svg
+              className="w-6 h-6 text-header-text"
+              fill="none"
+              stroke="currentColor"
               viewBox="0 0 24 24"
             >
-              <path 
-                strokeLinecap="round" 
-                strokeLinejoin="round" 
-                strokeWidth={2} 
-                d={menuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"} 
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d={menuOpen ? 'M6 18L18 6M6 6l12 12' : 'M4 6h16M4 12h16M4 18h16'}
               />
             </svg>
           </button>
@@ -111,8 +111,8 @@ const Header = () => {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8 xl:gap-12">
             {menuItems.map((item, index) => (
-              <Link 
-                key={index} 
+              <Link
+                key={index}
                 href={item.href}
                 className="text-lg font-normal leading-2xl text-header-text hover:text-primary-light transition-colors duration-200"
               >
@@ -126,8 +126,8 @@ const Header = () => {
         <div className={`lg:hidden ${menuOpen ? 'block' : 'hidden'} px-4 sm:px-6 pb-4`}>
           <div className="flex flex-col gap-4 bg-primary-light rounded-lg p-4">
             {menuItems.map((item, index) => (
-              <Link 
-                key={index} 
+              <Link
+                key={index}
                 href={item.href}
                 className="text-lg font-normal text-header-text hover:text-background-main transition-colors duration-200 py-2"
                 onClick={() => setMenuOpen(false)}
@@ -139,7 +139,7 @@ const Header = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
