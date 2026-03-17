@@ -58,7 +58,7 @@ const Header = () => {
                 className="w-[18px] h-[18px]"
               />
               <span className="text-sm sm:text-base font-light leading-md text-header-text ml-1.5">
-                +1 334 445 623
+                (+971) 025 827 362
               </span>
             </div>
             <div className="flex items-center">

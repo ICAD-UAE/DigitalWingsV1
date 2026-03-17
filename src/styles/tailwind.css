@@ -5,8 +5,8 @@
 @layer base {
   :root {
     /* Primary Colors */
-    --primary-background: #007a82;
-    --primary-light: #0098a2;
+    --primary-background: #00A551;
+    --primary-light: #33B87A;  /* Lighter variant of #00A551 */
     --primary-foreground: #ffffff;
     
     /* Text Colors */
