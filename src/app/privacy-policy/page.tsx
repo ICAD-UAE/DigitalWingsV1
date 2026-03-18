@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Header from '../../components/common/Header';
+import Footer from '../../components/common/Footer';
 
 export const metadata: Metadata = {
   title: 'DigitalWings - Privacy Policy',
@@ -92,17 +93,7 @@ export default function PrivacyPolicyPage() {
           </div>
         </div>
       </div>
-      <footer className="py-4 text-base font-medium text-text-primary bg-white border-t-2 border-primary-background mt-auto w-full">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[18px] flex justify-between items-center">
-          <div className="flex gap-4 sm:gap-6 text-base font-medium">
-            <a href="/privacy-policy" className="hover:text-primary-background transition-colors">Privacy Policy</a>
-            <a href="/terms-and-conditions" className="hover:text-primary-background transition-colors">Terms and Conditions</a>
-          </div>
-          <div className="text-center text-base font-medium">
-            Copyrights © 2026 DIGITAL WINGS TRAVELS. All Rights Reserved
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }

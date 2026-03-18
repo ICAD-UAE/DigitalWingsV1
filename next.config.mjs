@@ -15,7 +15,9 @@ const nextConfig = {
   },
   // Disable Turbopack since we have a custom webpack config
   experimental: {
-    turbo: false,
+    turbo: {
+      enabled: false
+    },
   }
 };
 export default nextConfig;

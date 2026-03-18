@@ -1,11 +1,11 @@
 'use client';
-import HeroSection from'./HeroSection';
- import PopularDestinations from'./PopularDestinations';
- import VideoSection from'./VideoSection';
- import WhyUsSection from'./WhyUsSection';
- import AdventureSection from'./AdventureSection';
+import HeroSection from './HeroSection';
+ import PopularDestinations from './PopularDestinations';
+ import VideoSection from './VideoSection';
+ import WhyUsSection from './WhyUsSection';
+ import AdventureSection from './AdventureSection';
 import NewsletterAwardSection from './NewsletterAwardSection';
- import ExperienceSection from'./ExperienceSection';
+ import ExperienceSection from './ExperienceSection';
 
 const HomePage = () => {
   return (
@@ -21,4 +21,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default HomePage;

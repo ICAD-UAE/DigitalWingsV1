@@ -9,11 +9,11 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  { label: 'Home', href: '#' },
-  { label: 'Packages', href: '#' },
-  { label: 'Tours', href: '#' },
-  { label: 'About Us', href: '#' },
-  { label: 'Contact', href: '#' },
+  { label: 'Home', href: '/' },
+  { label: 'Packages', href: '/packages' },
+  { label: 'Tours', href: '/tours' },
+  { label: 'About Us', href: '/about' },
+  { label: 'Contact', href: '/contact' },
 ];
 
 const Header = () => {
@@ -26,21 +26,21 @@ const Header = () => {
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center px-4 sm:px-6 lg:px-[18px] py-2 gap-2 sm:gap-0">
           {/* Social Links */}
           <div className="flex items-center justify-center gap-3 sm:gap-4">
-            <Link href="#" className="block" aria-label="Instagram">
+            <Link href="https://instagram.com/digitalwings" target="_blank" rel="noopener noreferrer" className="block" aria-label="Instagram">
               <img
                 src="/images/img_mdi_instagram.svg"
                 alt="Instagram"
                 className="w-[24px] h-[24px] transition-opacity hover:opacity-80"
               />
             </Link>
-            <Link href="#" className="block ml-3 sm:ml-4" aria-label="Twitter">
+            <Link href="https://twitter.com/digitalwings" target="_blank" rel="noopener noreferrer" className="block ml-3 sm:ml-4" aria-label="Twitter">
               <img
                 src="/images/img_circum_twitter.svg"
                 alt="Twitter"
                 className="w-[24px] h-[24px] transition-opacity hover:opacity-80"
               />
             </Link>
-            <Link href="#" className="block ml-2" aria-label="Facebook">
+            <Link href="https://facebook.com/digitalwings" target="_blank" rel="noopener noreferrer" className="block ml-2" aria-label="Facebook">
               <img
                 src="/images/img_iconoir_facebook.svg"
                 alt="Facebook"
@@ -83,7 +83,9 @@ const Header = () => {
         <nav className="flex items-center justify-between px-4 sm:px-6 lg:px-[18px] py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/images/logo.png" alt="DigitalWings" className="h-8 w-auto" />
+            <Link href="/">
+              <img src="/images/logo.png" alt="DigitalWings" className="h-8 w-auto" />
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}

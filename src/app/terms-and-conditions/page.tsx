@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Header from '../../components/common/Header';
+import Footer from '../../components/common/Footer';
 
 export const metadata: Metadata = {
   title: 'DigitalWings - Terms and Conditions',
@@ -55,7 +56,7 @@ export default function TermsAndConditionsPage() {
               <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">5. Cancellations and Changes</h2>
               <ul className="list-disc pl-6 mb-4">
                 <li><strong>Cancellation Policies:</strong> Cancellations are subject to the terms of the service providers, including airlines and hotels. Review specific policies at the time of booking.</li>
-                <li><strong>Non-Refundable Bookings:</strong> Some bookings, such as certain airfare types, are non- refundable or non-transferable.</li>
+                <li><strong>Non-Refundable Bookings:</strong> Some bookings, such as certain airfare types, are non-refundable or non-transferable.</li>
                 <li><strong>Changes:</strong> Requests for changes must be submitted through the Site or customer service. Additional charges may apply.</li>
               </ul>
               
@@ -109,17 +110,7 @@ export default function TermsAndConditionsPage() {
           </div>
         </div>
       </div>
-      <footer className="py-4 text-base font-medium text-text-primary bg-white border-t-2 border-primary-background mt-auto w-full">
-        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[18px] flex justify-between items-center">
-          <div className="flex gap-4 sm:gap-6 text-base font-medium">
-            <a href="/privacy-policy" className="hover:text-primary-background transition-colors">Privacy Policy</a>
-            <a href="/terms-and-conditions" className="hover:text-primary-background transition-colors">Terms and Conditions</a>
-          </div>
-          <div className="text-center text-base font-medium">
-            Copyrights © 2026 DIGITAL WINGS TRAVELS. All Rights Reserved
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </main>
   );
 }
