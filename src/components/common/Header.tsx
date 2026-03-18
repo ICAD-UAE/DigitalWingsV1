@@ -68,10 +68,10 @@ const Header = () => {
                 className="w-[18px] h-[18px]"
               />
               <a
-                href="mailto:contact@digitalwings.com"
+                href="mailto:contact@digitalwings.ai"
                 className="text-sm sm:text-base font-light leading-md text-header-text ml-1.5 hover:underline"
               >
-                contact@digitalwings.com
+                contact@digitalwings.ai
               </a>
             </div>
           </div>

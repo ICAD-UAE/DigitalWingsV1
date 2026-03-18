@@ -30,7 +30,7 @@ export default function Page() {
               DigitalWings is coming soon.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
-              <a href="mailto:contact@digitalwings.com">
+              <a href="mailto:contact@digitalwings.ai">
                 <Button variant="outline" className="px-8 py-3 text-lg">
                   Contact Us
                 </Button>

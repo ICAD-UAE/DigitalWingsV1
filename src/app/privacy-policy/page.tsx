@@ -14,83 +14,94 @@ export default function PrivacyPolicyPage() {
         <div className="max-w-[900px] mx-auto">
           <div className="bg-background-overlayHeavy border border-border-white rounded-lg shadow-[10px_10px_20px_#0000003f] p-8 sm:p-12">
             <h1 className="text-[28px] sm:text-[32px] md:text-[36px] font-abril font-normal leading-[36px] sm:leading-[42px] text-text-secondary mb-6">
-              Privacy Policy
+              Privacy Policy:
             </h1>
             
             <div className="prose max-w-none text-text-primary">
-              <p className="mb-4"><strong>Last Updated:</strong> March 17, 2026</p>
+              <p className="mb-4"><strong>Digital Wings Travels LLC | Your Privacy Matters</strong></p>
               
               <p className="mb-4">
-                DigitalWings Travels ("we," "us," or "our") operates the DigitalWings website and mobile application 
-                (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure 
-                of personal data when you use our Service.
+                At Digital Wings Travels LLC Abu Dhabi, your confidentiality, privacy, and trust are our top priorities. Our website, www.digitalwings.ai, is designed to offer seamless navigation without requiring personal information unless you choose to share it. Once provided, any personally identifiable information—such as your name, address, phone number, email address, or payment details—will be utilized solely to enhance your customer experience and for internal purposes, such as marketing, research, and improving our website.
               </p>
               
-              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">Information Collection and Use</h2>
               <p className="mb-4">
-                We collect various types of information for the purpose of providing and improving our Service to you. 
-                The types of personal information collected may include:
+                We invite you to read our detailed Privacy Policy below to understand how we protect your data.
+              </p>
+              
+              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">1. Introduction</h2>
+              <p className="mb-4">
+                Welcome to Digital Wings Travels LLC - Abu Dhabi. We are dedicated to safeguarding your personal information and privacy. This Privacy Policy outlines how we collect, use, disclose, and protect your information when you interact with our website [www.digitalwings.ai] or related platforms, including mobile apps. By using our site, you agree to the practices detailed below. If you disagree with any aspect of this policy, we advise refraining from accessing our services.
+              </p>
+              
+              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">2. Information We Collect</h2>
+              <p className="mb-4">
+                <ul className="list-disc pl-6 mb-4">
+                  <li><strong>Personal Data:</strong> Information such as your name, address, email, phone number, demographic details, and preferences, voluntarily provided during activities like account creation or online interactions.</li>
+                  <li><strong>Payment Data:</strong> Financial details (e.g., credit card information) collected during purchases or bookings.</li>
+                  <li><strong>Derivative Data:</strong> Automatically collected data like IP addresses, browser type, operating system, and site usage patterns.</li>
+                </ul>
+              </p>
+              <p className="mb-4">
+                Note: All credit/debit card details and personal information will not be stored, sold, rented, or shared with third parties.
+              </p>
+              
+              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">3. Use of Your Information</h2>
+              <p className="mb-4">
+                We collect information to provide a seamless and personalized experience. Key uses include:
               </p>
               <ul className="list-disc pl-6 mb-4">
-                <li>Your name and contact information</li>
-                <li>Travel preferences and booking history</li>
-                <li>Payment information</li>
-                <li>Communication preferences</li>
-                <li>Usage data and cookies information</li>
+                <li>Creating and managing accounts.</li>
+                <li>Processing transactions and sending confirmations/invoices.</li>
+                <li>Enhancing website functionality.</li>
+                <li>Providing customer support and responding to inquiries.</li>
+                <li>Sending updates, alerts, and administrative messages.</li>
+                <li>Analyzing usage patterns to improve your experience.</li>
               </ul>
               
-              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">Use of Data</h2>
+              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">4. Disclosure of Your Information</h2>
               <p className="mb-4">
-                We use the collected data for various purposes, including:
-              </p>
-              <ul className="list-disc pl-6 mb-4">
-                <li>To provide and maintain our Service</li>
-                <li>To process transactions</li>
-                <li>To send you updates and promotional materials</li>
-                <li>To monitor usage of our Service</li>
-                <li>To detect, prevent, and address technical issues</li>
-              </ul>
-              
-              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">Security of Data</h2>
-              <p className="mb-4">
-                The security of your data is important to us. We implement appropriate technical and organizational 
-                measures to protect your personal information against unauthorized access, alteration, disclosure, 
-                or destruction.
+                <ul className="list-disc pl-6 mb-4">
+                  <li><strong>Legal Compliance:</strong> Information may be shared to comply with legal requirements or protect rights and safety.</li>
+                  <li><strong>Third-Party Providers:</strong> Information may be shared with trusted third parties for services like payment processing, data analysis, email delivery, and customer support.</li>
+                </ul>
               </p>
               
-              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">Service Providers</h2>
+              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">5. Security of Your Information</h2>
               <p className="mb-4">
-                We may employ third-party companies and individuals to facilitate our Service, provide the Service 
-                on our behalf, perform service-related services, or assist us in analyzing how our Service is used. 
-                These third parties have access to your personal information only to perform these tasks on our behalf 
-                and are obligated not to disclose or use it for any other purpose.
+                We implement robust administrative, technical, and physical security measures to protect your data. However, no system can guarantee 100% security against unauthorized access or misuse. We encourage vigilance while sharing sensitive information online.
               </p>
               
-              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">Changes to This Privacy Policy</h2>
+              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">6. Policy for Children</h2>
               <p className="mb-4">
-                We may update our Privacy Policy from time to time. You are advised to review this Privacy Policy 
-                periodically for any changes. Changes to this Privacy Policy are effective when they are posted on 
-                this page.
+                We do not knowingly collect or market information to children under 13 years of age. If such information is inadvertently collected, it will be promptly deleted upon discovery.
               </p>
               
-              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">Contact Us</h2>
+              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">7. Changes to This Privacy Policy</h2>
               <p className="mb-4">
-                If you have any questions about this Privacy Policy, please contact us:
+                This policy may be updated periodically to reflect changes in practices, legal requirements, or operational needs. Please review this page regularly for updates.
+              </p>
+              
+              <h2 className="text-[22px] font-abril font-semibold mt-6 mb-4 text-text-secondary">8. Contact Us</h2>
+              <p className="mb-4">
+                For any questions, concerns, or feedback regarding our Privacy Policy, please contact us at:
               </p>
               <ul className="list-disc pl-6 mb-6">
-                <li>By email: privacy@digitalwings.com</li>
-                <li>By visiting our website: www.digitalwings.com</li>
+                <li>Email: contact@digitalwings.ai</li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <footer className="py-4 text-center text-base font-medium text-text-primary bg-white border-t-2 border-primary-background mt-auto w-full">
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-8 text-sm">
-          <a href="/privacy-policy" className="hover:text-primary-background transition-colors">Privacy Policy</a>
-          <a href="/terms-and-conditions" className="hover:text-primary-background transition-colors">Terms and Conditions</a>
+      <footer className="py-4 text-base font-medium text-text-primary bg-white border-t-2 border-primary-background mt-auto w-full">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-[18px] flex justify-between items-center">
+          <div className="flex gap-4 sm:gap-6 text-base font-medium">
+            <a href="/privacy-policy" className="hover:text-primary-background transition-colors">Privacy Policy</a>
+            <a href="/terms-and-conditions" className="hover:text-primary-background transition-colors">Terms and Conditions</a>
+          </div>
+          <div className="text-center text-base font-medium">
+            Copyrights © 2026 DIGITAL WINGS TRAVELS. All Rights Reserved
+          </div>
         </div>
-        <p className="mt-4">Copyrights © 2026 DIGITAL WINGS TRAVELS. All Rights Reserved</p>
       </footer>
     </main>
   );

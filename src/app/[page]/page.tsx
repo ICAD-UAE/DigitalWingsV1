@@ -40,7 +40,7 @@ export default async function UnderConstructionRoutePage({
               <a href="#">
                 <Button className="px-8 py-3">Back to Home</Button>
               </a>
-              <a href="mailto:contact@digitalwings.com">
+              <a href="mailto:contact@digitalwings.ai">
                 <Button variant="outline" className="px-8 py-3">
                   Contact Us
                 </Button>
