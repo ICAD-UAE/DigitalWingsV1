@@ -13,9 +13,9 @@ const nextConfig = {
     });
     return config;
   },
-  // Explicitly disable Turbopack since we have a custom webpack config
+  // Disable Turbopack since we have a custom webpack config
   experimental: {
-    webpackBuildWorker: false,
+    turbo: false,
   }
 };
 export default nextConfig;
